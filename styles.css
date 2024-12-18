@@ -1,0 +1,120 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f2f5;
+  }
+  
+  /* Top Bar */
+  .top-bar {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .icons span {
+    margin: 0 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Story Section */
+  .stories {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: #fff;
+  }
+  
+  .story img {
+    border-radius: 50%;
+    border: 2px solid #ff8500;
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* Post Section */
+  .post {
+    margin: 20px auto;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .post-header,
+  .post-icons,
+  .post-content {
+    padding: 10px 15px;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  .post-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    color: #ff4d4d;
+  }
+  
+  .post-content input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .post-content p {
+    margin: 10px 0;
+  }
+  
+
+  .comment-section {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .comment-section button {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .comment-section button:hover {
+    background-color: #357ae8;
+  }
+  

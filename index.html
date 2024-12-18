@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Clone</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Top Bar -->
+  <header class="top-bar">
+    <div class="logo">Instagram</div>
+    <div class="icons">
+      <span>❤️</span>
+      <span>💬</span>
+      <span>🔔</span>
+    </div>
+  </header>
+
+  <!-- Story Section -->
+  <section class="stories">
+    <div class="story"><img src="assets/story1.jpeg" alt="Story"></div>
+    <div class="story"><img src="assets/story2.jpeg" alt="Story"></div>
+    <div class="story"><img src="assets/story3.jpeg" alt="Story"></div>
+  </section>
+
+  <!-- Post Section -->
+  <section class="post">
+    <div class="post-header">
+      <span>Cheesecake and Co</span>
+      <span>Sponsored</span>
+    </div>
+    <div class="post-image">
+      <img src="assets/cake.jpeg" alt="Cake Post">
+    </div>
+    <div class="post-icons">
+      <button id="likeBtn">❤️ Like</button>
+      <button id="commentBtn">💬 Comment</button>
+
+
+      <!-- <div class="post-content">
+        <p id="likesCount">Likes: <span>137</span></p>
+        <div id="comments"></div>
+        <div class="comment-section">
+          <input type="text" id="commentInput" placeholder="Add a comment...">
+          <button id="submitComment">Submit</button>
+        </div>
+      </div>
+       -->
+
+
+    </div>
+    <div class="post-content">
+      <p id="likesCount">Likes: <span>137</span></p>
+      <div id="comments"></div>
+      <input type="text" id="commentInput" placeholder="Add a comment...">
+      <button id="submitComment">Submit</button>
+    </div>
+  </section>
+</body>
+</html>
